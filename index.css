@@ -1,0 +1,96 @@
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 20px;
+  border: 3px solid #fff;
+}
+
+* {
+  scrollbar-width: thin !important;
+  scrollbar-color: #000 #fff !important;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+header nav .collapse ul li a {
+  border-radius: 5px;
+  color: #ffffff !important;
+  font-weight: 700;
+  margin: 0;
+  padding: 5px;
+  transition: ease-in 0.2s;
+}
+
+header nav .collapse ul li a:hover {
+  padding: 0 0 3px 0;
+  text-decoration: underline 2px rgb(255, 255, 255);
+}
+
+header .__logo {
+  color: #ffffff !important;
+  font-size: 26px;
+  font-family: "Oswald", sans-serif !important;
+}
+
+.__navbar {
+  background-color: rgba(43, 71, 228, 0.9) !important;
+  -webkit-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.42);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.42);
+}
+
+.__acercaDeContent {
+  background: linear-gradient(to bottom right, #b3b4ee, white);
+}
+.__textAcercaDeContent {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+}
+
+.__servicios article .card:hover {
+  transition: all 0.3s;
+  padding-bottom: -5px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.__servicios .card img {
+  height: 180px;
+}
+
+.__atencion {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-family: sans-serif;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.__footer {
+  width: 100%;
+  background: linear-gradient(to bottom right, #ffffff, #b3b4ee);
+  -webkit-box-shadow: 0px -6px 6px -3px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 0px -6px 6px -3px rgba(0, 0, 0, 0.42);
+  box-shadow: 0px -6px 6px -3px rgba(0, 0, 0, 0.42);
+}
+
+footer a {
+  color: #000;
+  text-decoration: none;
+}
